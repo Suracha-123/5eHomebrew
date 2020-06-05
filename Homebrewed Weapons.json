@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Homebrewed Weapons",
+				"json": "Homebrewed Weapons and Armor",
 				"abbreviation": "SHBW",
-				"full": "Suracha's Homebrewed Weapons",
+				"full": "Suracha's Homebrewed Weapons and Armors",
 				"authors": [
 					"Suracha-123"
 				],
@@ -17,12 +17,12 @@
 	},
 	"item": [
 		{
-			"name": "Adamantine Armor",
-			"type": "Armor (medium or heavy armor, but not hide)",
+			"name": "Dragonscale Armor",
+			"type": "Armor (medium)",
 			"armor": true,
 			"rarity": "none",
-			"value": 10000,
-			"source": "EWaI",
+			"value": 150000,
+			"source": "SHBW",
 			"entries": [
 				"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit."
 			]
