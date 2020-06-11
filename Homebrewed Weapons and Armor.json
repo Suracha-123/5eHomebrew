@@ -8,7 +8,7 @@
 				"authors": [
 					"Suracha-123"
 				],
-				"version": "1.0.3",
+				"version": "1.0",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -22,6 +22,7 @@
 			"armor": true,
 			"rarity": "none",
 			"value": 200000,
+			"weight": 25
 			"source": "SHBW",
 			"entries": [
 				"An unusual and rare type of scale mail, this piece is made of the interwoven scales of a dragon. Flexible, but still extremely durable, they provide just as much protection as solid steel when properly locked together. Each suit of Dragonscale Armor is unique, as the age of dragon defines the rigidity of the scales, and their species defines the resistances the suit provides. Generally, younger scales allow for more agility and stealth, while older ones provide better up-front protection. As well as a resistance to the element of the dragon's breath weapon, all Dragonscale Armors provide resistance to all breath weapons of the dragon's type (chromatic or metallic)."
@@ -35,8 +36,7 @@
 			"dmg1": "1d8",
 			"dmg2": "1d4",
 			"dmgType": "S/P/B"
-			"property": [
-				"V", 
+			"property": [ 
 				"R",
 				"F"
 			],
@@ -93,7 +93,7 @@
 			"value": 100000,
 			"source": "SHBW",
 			"entries": [
-				"Ranging between mechanical wonders tinkered by gnomes and bulky abominations what can barely be called a shield anymore, Combination Shields are any combination between a shield and another weapon, mechanism or tool. The legendary Lantern Shield is a particularly peculiar example, a small circular metal shield with an integrated sword blade, spikes, a metallic gauntlet and, of course, a lantern. Another example are Gun Shields, gnomish creations which release a revolving metal shield with an integrated smokepowder gun. While they may work reasonably (though unreliably) well at providing the benefits of all their integrated tools, they are, of course, less useful than a regular shield in terms of raw protection." 
+				"Ranging between mechanical wonders tinkered by gnomes and bulky abominations that can barely be called a shield anymore, Combination Shields are any combination between a shield and another weapon, mechanism or tool. The legendary Lantern Shield is a particularly peculiar example, a small circular metal shield with an integrated sword blade, spikes, a metallic gauntlet and, of course, a lantern. Another example are Gun Shields, gnomish creations which release a revolving metal shield with an integrated smokepowder gun. While they may work reasonably (though unreliably) well at providing the benefits of all their integrated tools, they are, of course, less useful than a regular shield in terms of raw protection." 
 			]
 		},
 		{
@@ -113,26 +113,26 @@
 			"value": 25000,
 			"source": "SHBW",
 			"entries": [
-				"Including weapons such as the Main-Gauche, the Sword-Breaker, and the Rondel Dagger, Parrying Daggers are daggers mainly meant for the off-hand, used, unsurprisingly, for parrying or catching an opponent's weapon, but also to deliver swift, piercing strikes. The Stiletto is an example of a specialised thrusting dagger. Most such daggers can be used to push into the weak points of an opponent's armor when the latter is distracted, grappled, or prone - with the exception of the Sword-Breaker, as its pronged blade is too wide, and better suited for defense rather than offense. The Trident Dagger is a type of Parrying Dagger which has a hidden mechanism that, when triggered, deploys two hidden blades to the side of the main blade, which can be used offensively, or squeezed together to catch and trap the weapon of an opponent. Such a technological marvel, however, is bound to be rare and expensive."
+				"Including weapons such as the Main-Gauche, the Sword-Breaker, and the Rondel Dagger, Parrying Daggers are daggers mainly meant for the off-hand, used, unsurprisingly, for parrying or catching an opponent's weapon, but also to deliver swift, piercing strikes. The Stiletto is an example of a specialised thrusting dagger. Most such daggers can be used to push into the weak points of an opponent's armor when the latter is distracted, grappled, or prone - with the exception of the Sword-Breaker, as its pronged blade is too wide, and better suited for defense rather than offense. The Trident Dagger is a type of Parrying Dagger which has a hidden mechanism that, when triggered, deploys two hidden blades to the side of the main blade; these can be used offensively, or squeezed together to catch and trap the weapon of an opponent. Such a technological marvel, however, is bound to be rare and expensive."
 			]
 		},
 		{
 			"name": "Chu-ko-nu",
 			"type": "R",
 			"weaponCategory": "martial",
-			"weight": 5,
+			"weight": 15,
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"property": [
 				"A",
-				"H"
+				"H",
 			],
 			"range": "20/80",
 			"rarity": "uncommon",
 			"value": 150000,
 			"source": "SHBW",
 			"entries": [
-				"An ancient, but not quite obsolete design. The Chu-ko-nu, originally known as Lian Nu or Zhuge Nu, is a hip-mounted repeating crossbow that takes little Strength, Dexterity or training to use effectively. Place the stock on the hip, face the enemy's general direction, and begin cranking the lever. The inner mechanisms will then draw the crossbow, load a bolt from a top-mounted magazine, and release the bow; then repeat. While lightning-fast compared to any normal crossbow (or even bow), its accuracy, weight and, thus, range and damage leave much to be desired. The Chu-ko-nu user can fire 2 shots within one Attack action as long as their target is in regular range. Alternatively, if the target is more than 20 feet away, the user may fire 3 shots during a single Attack action - however, they have a disadvantage on each attack roll. As the user does not need to reload between shots, on average, this still means more successful hits than a regular crossbow. Nevertheless, he Chu-ko-nu truly shines when faced with larger groups of enemies and loaded with poison-tipped or otherwise special or enchanted bolts, wherein it can expell a great volume of ammunition that is bound to hit a target and deliver its damage."
+				"An ancient, but not quite obsolete design. The Chu-ko-nu, originally known as Lian Nu or Zhuge Nu, is a hip-mounted repeating crossbow that takes little Strength, Dexterity or training to use effectively. Place the stock on the hip, face the enemy's general direction, and begin cranking the lever. The inner mechanisms will then draw the crossbow, load a bolt from a top-mounted magazine, and release the bow; then repeat. While lightning-fast compared to any normal crossbow (or even bow), its accuracy, draw weight and, thus, range and damage leave much to be desired. The Chu-ko-nu user can fire 2 shots within one Attack action as long as their target is in regular range. Alternatively, if the target is more than 20 feet away, the user may fire 3 shots during a single Attack action - however, they have a disadvantage on each attack roll. As the user does not need to reload between shots, on average, this still means more successful hits than a regular crossbow. Nevertheless, he Chu-ko-nu truly shines when faced with larger groups of enemies and loaded with poison-tipped or otherwise special or enchanted bolts, wherein it can expell a great volume of ammunition that is bound to hit a target and deliver its damage."
 			],
 			"ammoType": "crossbow bolt|phb"
 		},
@@ -146,7 +146,8 @@
 			"dmgType": "P",
 			"property": [
 				"V", 
-				"R"
+				"R",
+				"F"
 			],
 			"rarity": "none",
 			"value": 2000,
@@ -156,7 +157,7 @@
 			],
 		},
 		{
-			"name": "Flail",
+			"name": "Simple Flails",
 			"type": "M",
 			"weaponCategory": "simple",
 			"weight": 3,
@@ -164,14 +165,14 @@
 			"dmg2": "1d8"
 			"dmgType": "P",
 			"property": [
-				"V", 
-				"R"
+				"R",
+				"F"
 			],
 			"rarity": "none",
 			"value": 4000,
 			"source": "SHBW",
 			"entries": [
-				"Varying between the Nunchaku rice flail and the chain whip, non-military flails are repurposed agricultural tools, used as weapons relying on centrifugal force. Shorter ones, like Nunchaku, can be dual-wielded. Longer ones, like the chain whip, can be used at a longer range and deal greater damage."
+				"Varying between the Nunchaku rice flail and the chain whip or 9-section whip, non-military flails are repurposed agricultural tools, used as weapons relying on centrifugal force. Shorter ones, like Nunchaku, can be dual-wielded. Longer ones, like the chain whip, can be used at a longer range and deal greater damage."
 			],
 		},
 		{
@@ -182,13 +183,14 @@
 			"dmg1": "2d6";
 			"dmgType": "S/P";
 			"property": [
-				"R"
+				"R",
+				"2H"
 			],
 			"rarity": "uncommon",
 			"value": 150000,
 			"source": "SHBW",
 			"entries": [
-				"A rare and unusual sword, the Falx is a long, forward-curved blade with a handle of almost equal length. Its size is imposing enough, reaching polearm-like lengths, but its true strength is the hook-like blade. The point can easily curve around shields and weapons and pierce most armours and helmets, and the curved blade can cut through a shield like a red-hot knife through cheese, sometimes cutting an entire shield in half, as well as the hand holding it. The Falx has a +2 to attack rolls against enemies using shields, effectively negating their AC bonus. It also has a +2 to attack rolls against enemies wearing any medium armor other than a breastplate or half-plate, and a +1 to attack rolls against enemies wearing light or no armor. These do not stack with the bonus against shields. However, the cumbersome two-handed length and the forward-curved blade negatively impact a user's defenses... though there are tales of ancient warriors charging into enemy formations with nothing but a Falx and simple farmers' clothing, twisting and turning and taking them apart in a whirlwind of heavy blows and dodges. A Falx user must have a Dexterity above 15 or receive formal training with this weapon from any surviving master, if they exist, in order to negate its AC penalty."
+				"A rare and unusual sword, the Falx is a long, forward-curved blade with a handle of almost equal length. Its size is imposing enough, reaching polearm-like lengths, but its true strength is the hook-like blade. The point can easily curve around shields and weapons and pierce most armours and helmets, and the curved blade can cut through a shield like a red-hot knife through cheese, even cutting the hand holding it. The Falx has a +2 to attack rolls against enemies using shields, effectively negating their AC bonus. It also has a +2 to attack rolls against enemies wearing any medium armor other than a breastplate or half-plate, and a +1 to attack rolls against enemies wearing light or no armor. These do not stack with the bonus against shields. However, the cumbersome two-handed length and the forward-curved blade negatively impact a user's defenses... though there are tales of ancient warriors charging into enemy formations with nothing but a Falx and simple farmers' clothing, twisting and turning and taking them apart in a whirlwind of heavy blows and dodges. A Falx user must have a Dexterity above 15 or receive formal training with this weapon from any surviving master, if they exist, in order to negate its AC penalty."
 			]
 		},
 		{
@@ -223,13 +225,13 @@
 			],
 			"source": "SHBW",
 			"entries": [
-				"The odd offspring of a sword and a bailiff's mace, the Jitte was both a weapon and a sign of power. Hailing from Kozakura, where bringing a sword into the Imperial Palace was a capital offense, it served as the main weapon and badge of office for the Imperial Police and the Royal Guard. In simple terms, it is a sword with a blunt steel bar for a blade, and a protruding hook used for catching weapons and pushing into an oppoent's pressure points. The user of a Jitte can more easily knock an opponent unconscious, has advantage on grapples against unarmed enemies or enemies using a single sword, and a +1 to AC against sword attacks. These weapons are particularly rare and precious due to their cultural and legal significance, and anyone who knows their value is unlikely to part with them willingly."
+				"The odd offspring of a sword and a bailiff's mace, the Jitte was both a weapon and a sign of power. Hailing from Kozakura, where bringing a sword into the Imperial Palace was a capital offense, it served as the main weapon and badge of office for the Imperial Police and the Royal Guard. In simple terms, it is a sword with a blunt steel bar for a blade, and a protruding hook used for catching weapons and pushing into an oppoent's pressure points. The user of a Jitte can more easily knock an opponent unconscious, has advantage on grapples against unarmed enemies or enemies using a single sword, and a +1 to AC against sword attacks. Additionally, nobles and educated townsfolk will recognize the Jitte as a status symbol, and treat its wielder with considerably more respect. These weapons are particularly rare and precious due to their cultural and legal significance, and anyone who knows their value is unlikely to part with them willingly."
 			]
 		},
 		{
 			"name": "Sai",
-			"type": "Weapon (battelaxe)",
-			"weight": 5,
+			"type": "Weapon (dagger)",
+			"weight": 2,
 			"dmg1": "1d4",
 			"dmg2": "1d6",
 			"dmgType": "B/P",
@@ -237,10 +239,10 @@
 				"F"
 			],
 			"rarity": "none",
-			"value": 30000,
+			"value": 25000,
 			"source": "SHBW",
 			"entries": [
-				"An unusual weapon, the Sai resembles a pointy pitchfork more than any regular dagger. Used in pairs whenever possible, the Sai is meant to catch an enemy's weapon and retaliate with the offhand. By itself, a Sai is essentially a specialised dagger, but when dual-wielding, a trained Sai user can deliver a precise strike when a melee attack against them misses or is blocked."
+				"An apparently improvised weapon, the Sai resembles a pointy pitchfork more than any regular dagger. Used in pairs whenever possible, the Sai is meant to catch an enemy's weapon and retaliate with the offhand. By itself, a Sai is essentially a specialised dagger, but when dual-wielding, a trained Sai user can deliver a precise strike when a melee attack against them misses or is blocked. Its similarity to the Jitte allows the two to be paired quite effectively, but the user must keep in mind that the Jitte is a symbol of authority, while the Sai is the weapon of a dishonorable assassin."
 			]
 		},
 		{
@@ -260,7 +262,7 @@
 			"value": 350000,
 			"source": "SHBW",
 			"entries": [
-				"A masterful design, the Mine Partisan was originally based on a gnomish blueprint, contracted by Mountain Dwarves who needed a weapon that would fit their terrifying phalanxes, while still being practical underground. The result was a medium-length metal rod with wood and leather coverings, which could be unfolded into a full-sized partisan with the flick of a switch, conveniently located at the bottom of the rod. This weapon is especially versatile, as it can be carried folded and either used as a mace or quickly and easily deployed when needed - it also has the perfect length for a dwarf: long enough to be used in formation, and short enough to not hit the cavern walls and ceiling when patrolling the mines. As with most dwarven things, it is especially wide and heavy, even for a polearm, but remarkably sturdy and reliable, and wickedly sharp."
+				"A masterful design, the Mine Partisan was originally based on a gnomish blueprint, commissioned by Mountain Dwarves who needed a weapon that would fit their terrifying phalanxes, while still being practical underground. The result was a medium-length metal rod with wood and leather coverings, which could be unfolded into a full-sized partisan with the flick of a switch, conveniently located at the bottom of the rod. This weapon is especially versatile, as it can be carried folded and either used as a mace or quickly and easily deployed when needed - it also has the perfect length for a dwarf: long enough to be used in formation, and short enough to not hit the cavern walls and ceiling when patrolling the mines. As with most dwarven things, it is especially wide and heavy, even for a polearm, but remarkably sturdy and reliable, and wickedly sharp."
 			]
 		},
 		{
