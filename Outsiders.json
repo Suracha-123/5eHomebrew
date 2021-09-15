@@ -1,0 +1,920 @@
+{
+	"siteVersion": "1.136.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Outsiders",
+				"abbreviation": "OUT",
+				"full": "Outsiders",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1631731773,
+		"dateLastModified": 1631731773
+	},
+	"monster": [
+		{
+			"name": "Swarmling",
+			"shortName": "ling",
+			"source": "Outsiders",
+			"size": "S",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6 + 2",
+				"average": 9
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 12,
+			"int": 3,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The ling has advantage on an attack roll against a creature if at least one of the ling's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Adrenal Frenzy",
+					"entries": [
+						"The ling may make an additional claw attack as part of its attack action against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Aggressive (Raptorling)",
+					"entries": [
+						"As a bonus action, the ling can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) damage."
+					]
+				},
+				{
+					"name": "Claw (Raptorling)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Raptorling",
+					"entries": [
+						"An evolution of the Swarmling causes it to develop multiple sets of insectoid wings, allowing them to jump their maximum distance without a running start, and increasing the maximum long jump and high jump distance to half its speed. Additionally, the ling gains the Aggressive trait due to related evolutionary pathways opened by the mutation. Finally, the ling's damage die becomes a {@dice d6} as a result of its chemically-induced aggression. A Raptorling is CR 1."
+					],
+					"type": "variant"
+				}
+			],
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Swarmling.png?raw=true",
+			"traitTags": [
+				"Aggressive",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Baneling",
+			"shortName": "ling",
+			"source": "Outsiders",
+			"size": "S",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d6",
+				"average": 10
+			},
+			"speed": {
+				"walk": {
+					"number": 20,
+					"condition": ", 30 ft. second encounter"
+				}
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 11,
+			"int": 3,
+			"wis": 8,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 9,
+			"immune": [
+				"acid"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the ling dies, it bursts in a splash of acid, and each creature within 10 feet of it must make a {@dc 13} Dexterity saving throw, taking 7 ({@damage 2d6}) acid damage on a failed save, or half as much damage on a successful one. The acid deals maximum damage to objects made of organic materials that are not being worn or carried."
+					]
+				},
+				{
+					"name": "Standing Leap (Hunter Strain)",
+					"entries": [
+						"The ling's long jump is up to 40 feet and its high jump is up to 20 feet, with or without a running start."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Baneful Nibble",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) acid damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Hunter Strain",
+					"entries": [
+						"A guided, forced evolution of generations of Banelings led to a faster, more agile and more aggressive Hunter Strain. Hunter Strain Banelings gain a walking and climbing speed of 40 feet, and the Standing Leap feature. Their CR is unchanged."
+					],
+					"type": "variant"
+				}
+			],
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Baneling.png?raw=true",
+			"traitTags": [
+				"Death Burst"
+			],
+			"senseTags": [
+				"B",
+				"T"
+			],
+			"damageTags": [
+				"A"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Corruptor",
+			"shortName": true,
+			"source": "Outsiders",
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "16d10 + 32",
+				"average": 120
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 15,
+			"int": 13,
+			"wis": 16,
+			"cha": 6,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Telepathic Bond",
+					"entries": [
+						"The corruptor ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Parasite Spores",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}30 ({@damage 6d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Caustic Spray",
+					"entries": [
+						"The corrupter targets a creature within 60 feet of itself, launching a stream of acid at it. That creature and creatures within 5 feet of it must make a Dexterity saving throw. On a failure the target takes 14 ({@damage 4d6}) acid damage, and for 1 minute when the target",
+						"takes damage it takes an additional {@damage 1d8} acid damage (this doesn't stack with additional uses of caustic spray). On a success the target takes half damage, and suffers no other effects."
+					]
+				},
+				{
+					"name": "Corruption",
+					"entries": [
+						"One beast or humanoid the corruptor can see within 60 feet of it must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the corrupter's telepathic commands. If the target suffers any harm or receives a suicidal",
+						"command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this corruptor's corruption for the next 24 hours.",
+						"The corrupter can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
+					]
+				}
+			],
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Corruptor.png?raw=true",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"conditionInflict": [
+				"charmed"
+			]
+		},
+		{
+			"name": "Hydralisk",
+			"shortName": "lisk",
+			"source": "Outsiders",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 28",
+				"average": 91
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 15,
+			"dex": 20,
+			"con": 14,
+			"int": 3,
+			"wis": 15,
+			"cha": 6,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The lisk has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Poison Strikes",
+					"entries": [
+						"If the lisk hits a creature with either its needle spines or its claws, that creature must succeed on a {@dc 16} Constitution saving throw or be {@condition poisoned} for 1 minute. At the end of each of its turns, a creature can make a Constitution saving throw, ending the effects on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the lisk's Poison Strikes for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The lisk makes two needle spines attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Needle Spines",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 60/200 ft., one target. {@h}11 ({@damage 1d12 + 5}) damage."
+					]
+				}
+			],
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Hydralisk.png?raw=true",
+			"traitTags": [
+				"Ambusher"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Mutalisk",
+			"shortName": "lisk",
+			"source": "Outsiders",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d8 + 15",
+				"average": 82
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 45,
+				"canHover": false
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 13,
+			"int": 3,
+			"wis": 15,
+			"cha": 6,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Poison Strikes",
+					"entries": [
+						"If the lisk hits a creature with either its needle spines or its claws, that creature must succeed on a {@dc 16} Constitution saving throw or be {@condition poisoned} for 1 minute. At the end of each of its turns, a creature can make a Constitution saving throw, ending the effects on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the lisk's Poison Strikes for the next 24 hours."
+					]
+				},
+				{
+					"name": "Rapid Regeneration",
+					"entries": [
+						"The lisk regains 5 hit points at the start of its turn if it has at least 1 hit point and has not been damaged since the end of its last turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Glave Wurm",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage. ",
+						"When the glaive wurm hits a creature, it can bounce to another creature within 10 feet of the initial target, and then again to another creature within 10 feet of the second target. A separate attack roll is made for each target. If there are multiple creatures that the glaive",
+						"wurm could bounce to, the lisk chooses which target the glaive wurm bounces to."
+					]
+				}
+			],
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Mutalisk.png?raw=true",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Swarm Queen",
+			"shortName": "Queen",
+			"source": "Outsiders",
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d10 + 54",
+				"average": 153
+			},
+			"speed": {
+				"walk": {
+					"number": 25,
+					"condition": "when on creep, 10 ft. off-creep"
+				}
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 17,
+			"int": 3,
+			"wis": 17,
+			"cha": 6,
+			"save": {
+				"cha": "+1",
+				"int": "-1"
+			},
+			"skill": {
+				"perception": "+6",
+				"animal handling": "+6",
+				"medicine": "+6",
+				"nature": "-1"
+			},
+			"senses": [
+				"darkvision 90 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Psionic Spellcasting",
+					"headerEntries": [
+						"The queen utilizes a combination of arcane, innate and biological abilities to perform the equivalents of the following spells. When casting spells with this feature, the queen does not need to perform verbal components or provide material components."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell encode thoughts|GGR}",
+								"{@spell spare the dying}"
+							]
+						}
+					},
+					"daily": {
+						"3e": [
+							"{@spell comprehend languages}",
+							"{@spell create food and water}",
+							"{@spell enlarge/reduce}"
+						],
+						"1e": [
+							"{@spell death ward}",
+							"{@spell insect plague}",
+							"{@spell mass healing word}",
+							"{@spell revivify}"
+						]
+					}
+				}
+			],
+			"trait": [
+				{
+					"name": "Spawn Tumor",
+					"entries": [
+						"The queen can spend 1 hour creating a creep tumor on a surface within 5 feet of it. It is {@condition incapacitated} while doing so. After a queen has used this trait, it can't do so again for 1 week."
+					]
+				},
+				{
+					"name": "Tend Eggs",
+					"entries": [
+						"By spending 2 hours tending to an egg, the queen doubles the rate of growth of that egg for 1 day. An egg can't be affected by this trait more than once a day."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The queen makes two spine attacks."
+					]
+				},
+				{
+					"name": "Spines",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}13 ({@damage 2d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d8 + 4}) damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Spellcasting",
+					"entries": [
+						"The queen casts one of her available spells."
+					]
+				},
+				{
+					"name": "Transfuse",
+					"entries": [
+						"The queen uses Transfuse. She cannot make attacks of any sort until the end of her next turn. Additionally, if Transfuse was on cooldown, it only heals half of the rolled hit points and nothing more."
+					]
+				}
+			],
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Queen.png?raw=true",
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			]
+		},
+		{
+			"name": "Roach",
+			"source": "Outsiders",
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 16,
+					"from": [
+						"adaptive plating"
+					],
+					"condition": "below half health"
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 55",
+				"average": 104
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": {
+					"number": 30,
+					"condition": "after the first encounter"
+				}
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 20,
+			"int": 3,
+			"wis": 13,
+			"cha": 3,
+			"save": {
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The roach regains 5 hit points at the start of its turn if it has at least 1 hit point and has not been damaged since the end of its last turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Acidic Saliva",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}25 ({@damage 4d10 + 3}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Vile",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								"Vile strain roaches are a product of the toxic microbes that live in the water they drink. While a roaches immune system is strong enough to protect itself against the microbes on, the immune system of the creatures it feeds on often aren't. The microbes live in the roaches saliva, and when roach spits on a creature, the microbes come with, quickly securing themselves in the wounds left by the acid and infecting them. A vile strain roach has a challenge rating of 4 (1,100 XP) and the following trait."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Toxic Saliva",
+							"entries": [
+								"When the roach hits a creature with its acidic saliva, that creature must make a {@dc 14} Constitution saving throw, or be affected as though the Slow spell had been cast on it. Instead of making a Wisdom saving throw on subsequent turns to end the effect, the target makes a Constitution saving throw. If the effect ends, the target is immune to Toxic Saliva for the next 24 hours."
+							]
+						}
+					],
+					"type": "variant"
+				},
+				{
+					"name": "Ravager",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								"Ravagers are easily recognized by the large gaping hole in the center of their shell. The hole is filled with superheated plasma that the ravager can eject as a deadly stream, arcing it though the air and onto its enemies. It's capable of using this plasma in subtler ways as well, and can its plasma as small, compact balls against its enemies. A ravager's acidic saliva deals fire damage instead of acid damage, has a challenge rating of 4 (1,100 XP) and the following action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Corrosive Bile",
+							"entries": [
+								"The Ravager launches a pile of burning liquid from the top of its carapace, landing in a 10 foot square at a location it can see within 150 feet. Creatures in the square must a {@dc 14} Dexterity saving throw. On a failure the target takes 18 ({@damage 4d8}) fire damage. On a success the target takes half damage."
+							]
+						}
+					],
+					"type": "variant"
+				}
+			],
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Roach.png?raw=true",
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Infestor",
+			"shortName": true,
+			"source": "Outsiders",
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Swarm"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d10 + 36",
+				"average": 135
+			},
+			"speed": {
+				"walk": 25,
+				"burrow": {
+					"number": 35,
+					"condition": "(cannot cast spells or take actions)"
+				}
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 15,
+			"int": 5,
+			"wis": 19,
+			"cha": 6,
+			"save": {
+				"cha": "+1",
+				"dex": "+4",
+				"con": "+5",
+				"wis": "+7"
+			},
+			"skill": {
+				"perception": "+7",
+				"deception": "+1",
+				"intimidation": "+1"
+			},
+			"senses": [
+				"darkvision 90 ft.",
+				"tremorsense 30 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Swarmspeech"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Psionic Spellcasting",
+					"headerEntries": [
+						"The infestor utilizes a combination of arcane, innate and pathological abilities to perform the equivalents of the following spells. When casting spells with this feature, the infestor does not need to perform verbal components or provide material components."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell infestation|XGE}",
+								"{@spell poison spray}"
+							]
+						}
+					},
+					"will": [
+						"{@spell blindness/deafness}",
+						"{@spell enlarge/reduce}",
+						"{@spell faerie fire}",
+						"{@spell fog cloud}",
+						"{@spell thunderwave}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell counterspell}",
+							"{@spell fireball}, with poison damage",
+							"{@spell hold person}"
+						],
+						"1e": [
+							"{@spell crown of madness}",
+							"{@spell eyebite}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Consume",
+					"entries": [
+						"The infestor immediately kills one willing living creature. The defiler regains 3 uses of a 3/day each spell, or 1 use of a 1/day each spell. This action cannot be used on a creature {@condition charmed} by it."
+					]
+				},
+				{
+					"name": "Microbial Shroud (one use of a per-day spell)",
+					"entries": [
+						"The infestor targets a point that it can see within 60 feet of itself, creating a 15 foot radius orange opaque cloud centered at that point for 1 minute. Creatures inside of the cloud have resistance to ranged attacks."
+					]
+				},
+				{
+					"name": "Fungal Growth",
+					"entries": [
+						"The infestor launches a mass of liquified green fungus at a point within 60 feet of it that splashes out and affects all creatures in a 20 foot radius. Each creature must make a {@dc 15} Dexterity saving throw. On a success the target has their movement speed reduced to 0 and takes 11 ({@damage 2d10}) poison damage at the start of their turns for 1 minute. On a failure the target has their movement speed halved for their next turn, and suffers no other effects. At the end of each of its turns, the target can make a Dexterity saving throw, ending all effects on a success."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"tokenUrl": "https://github.com/Suracha-123/tokens/blob/main/Swarm/Infestor.png?raw=true",
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"I"
+			]
+		}
+	]
+}
