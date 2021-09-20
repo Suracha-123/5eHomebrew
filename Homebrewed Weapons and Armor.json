@@ -34,7 +34,7 @@
 			"weight": 4,
 			"dmg1": "1d8",
 			"dmg2": "1d4",
-			"dmgType": "S/P/B"
+			"dmgType": "S/P/B",
 			"property": [
 				"V", 
 				"R",
@@ -93,7 +93,7 @@
 			"value": 100000,
 			"source": "SHBW",
 			"entries": [
-				"Ranging between mechanical wonders tinkered by gnomes and bulky abominations what can barely be called a shield anymore, Combination Shields are any combination between a shield and another weapon, mechanism or tool. The legendary Lantern Shield is a particularly peculiar example, a small circular metal shield with an integrated sword blade, spikes, a metallic gauntlet and, of course, a lantern. Another example are Gun Shields, gnomish creations which release a revolving metal shield with an integrated smokepowder gun. While they may work reasonably (though unreliably) well at providing the benefits of all their integrated tools, they are, of course, less useful than a regular shield in terms of raw protection." 
+				"Ranging between mechanical wonders tinkered by gnomes and bulky abominations that can barely be called a shield anymore, Combination Shields are any combination between a shield and another weapon, mechanism or tool. The legendary Lantern Shield is a particularly peculiar example, a small circular metal shield with an integrated sword blade, spikes, a metallic gauntlet and, of course, a lantern. Another example are Gun Shields, gnomish creations which release a revolving metal shield with an integrated smokepowder gun. While they may work reasonably (though unreliably) well at providing the benefits of all their integrated tools, they are, of course, less useful than a regular shield in terms of raw protection." 
 			]
 		},
 		{
@@ -142,7 +142,7 @@
 			"weaponCategory": "simple",
 			"weight": 1,
 			"dmg1": "1d4",
-			"dmg2": "1d6"
+			"dmg2": "1d6",
 			"dmgType": "P",
 			"property": [
 				"V", 
@@ -161,8 +161,8 @@
 			"weaponCategory": "simple",
 			"weight": 3,
 			"dmg1": "1d4",
-			"dmg2": "1d8"
-			"dmgType": "P",
+			"dmg2": "1d8",
+			"dmgType": "B",
 			"property": [
 				"V", 
 				"R"
@@ -178,9 +178,9 @@
 			"name": "Falx",
 			"type": "M",
 			"weaponCategory": "martial",
-			"weight": 7;
-			"dmg1": "2d6";
-			"dmgType": "S/P";
+			"weight": 7,
+			"dmg1": "2d6",
+			"dmgType": "S/P",
 			"property": [
 				"R"
 			],
@@ -196,9 +196,9 @@
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 3;
-			"dmg1": "1d8";
+			"dmg1": "1d8",
 			"dmg2": "2d8",
-			"dmgType": "S";
+			"dmgType": "S",
 			"property": [
 				"R"
 			],
