@@ -1,0 +1,65 @@
+{
+	"siteVersion": "1.147.16",
+	"_meta": {
+		"sources": [
+			{
+				"json": "NewSpells",
+				"abbreviation": "NS",
+				"full": "New Spells",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1643249659,
+		"dateLastModified": 1643249659
+	},
+	"spell": [
+		{
+			"name": "Galanodel's Sermon of Swords",
+			"source": "NewSpells",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "one slashing or piercing melee weapon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You begin muttering a prayer while brandishing the weapon used as a material component for this spell. For the duration, a 30-foot aura extends from you. ",
+				"Creatures of your choice within the aura who can hear you gain a +1 bonus to their armor class and have advantage on Dexterity saving throws against damaging spells and other effects, with spectral blades parrying and blocking blows directed against them. They may also use their reaction at any point to make a melee attack against a creature within range. ",
+				"Additionally, when you cast this spell, and as an action on subsequent turns, you may raise your voice into a sermon praising your deity, calling on their combat prowess to aid you. Every creature of your choice within the aura must make a Dexterity saving throw, as copies of your weapon shining with divine energy appear and strike at them. A creature takes {@damage 7d6} slashing damage if it fails this saving throw, or half as much if it succeeds. You may not make use of this action if you cannot speak, such as when under the effect of a {@spell silence} spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
