@@ -1,0 +1,2348 @@
+{
+	"siteVersion": "1.165.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "NewSpells",
+				"abbreviation": "NS",
+				"full": "New Spells",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1658836616,
+		"dateLastModified": 1658836616
+	},
+	"spell": [
+		{
+			"name": "Arauthator's Shock Mortal Mind",
+			"source": "NewSpells",
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You send visions of diabolical perversion and knowledge towards a creature within range, crippling their mind. The target must succeed on an Intelligence saving throw or be affected by the spell for the duration. This spell has no effect on creatures with an Intelligence score lower than 7, and creatures with a natural life expectancy of 1000 years or more, or with unnaturally long lifespans -  whether through magic, via the Timeless Body feature, or by other means - have advantage on the saving throw. ",
+				"While affected by this spell, a creature has disadvantage on attack rolls and ability checks, and whenever the creature casts a spell, it must make a DC 15 Constitution saving throw. On a failure, the spell has no effect. ",
+				"At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arauthator's Wingbreak",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "two iron nails or spikes, cold-forged"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You launch spectral binding spikes into the wings of a flying creature you can see within range.",
+				"The target must make a Dexterity saving throw, taking {@damage 2d6} piercing damage on a failure or half as much on a success. If a creature flies without the use of wings, it automatically succeeds on the saving throw. ",
+				"Creatures who fail the saving throw emit a sickening crunch as their wings bend unnaturally and are {@condition paralyzed} for the duration. The target cannot use its wings to fly, swim or attack with them, or for anything else that would require moving them. A creature which can hover remains suspended in the air, unable to move, while creatures without this ability plummet to the ground, taking fall damage as usual.",
+				"A target may make a Constitution saving throw at the end of its subsequent turns, ending the effect on itself on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. "
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Breach Mind",
+			"source": "NewSpells",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to discern the most immediate, subconscious thoughts of a creature within range. While it remains within range, the creature cannot hide from you and cannot benefit from advantage or any other bonuses, such as bardic inspiration, on attacks against you. The creature must make a Wisdom saving throw. On a failure, you also gain advantage on all attacks against the creature, and the creature has disadvantage on attacks against you. On a success, the creature suffers no additional effects.",
+				"As a bonus action on your turn until the spell ends, you may target a different creature within range, ending the effect on the previous target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dimensional Rending",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "the claw of an unnatural or magical creature, such as a dragon or undead"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You reach forward and pull your hands apart, causing a chaotic magical anomaly to rip a creature or object to shreds. One such target in range must make a Constitution saving throw. On a success, the target takes {@damage 2d6} force damage. On a failure, the target takes {@damage 9d6} force damage and its movement speed is halved until the end of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can one target another creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ethereal Sight",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pinch of powdered crystal or clear gemstone worth at least 1 gp, which is consumed by the spell",
+					"consume": true,
+					"cost": 100
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"For the duration, you see {@condition invisible} creatures and objects as if they were visible, and you can see into the Ethereal Plane. Additionally, you can see through solid, opaque objects up to a range of 30 feet. You perceive material objects as hazy, water-like surfaces, and Ethereal objects and creatures as ghostly images. "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Galanodel's Glimmer of Divinity",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a holy symbol or an item relevant to one's god or oath"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You bless and imbue a willing creature of your choice other than yourself with a shred of your divine power. For the duration, the creature gains the ability to use your Channel Divinity option once. Once the creature does so, the spell ends.",
+				"The feature is used exactly as stated, with different options having different use times, durations, targets and requirements. If you have more than one Channel Divinity option, you choose which one to bestow. ",
+				"For example, if you have levels in both a paladin Oath and a cleric Domain, you may choose between any of the Channel Divinity options of either class.",
+				"A creature cannot gain the benefits of this spell again until it finishes a long rest."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Galanodel's Mournful Wail",
+			"source": "NewSpells",
+			"level": 7,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a reminder of the caster's suffering, such as a letter or token of a lost love"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You draw on the passive suffering of the world around you, and condense it into a mind-shattering scream that permeates your foe's soul. A creature of your choice that can hear you within range must make a Constitution saving throw. The creature takes {@damage 12d10} psychic damage on a failed save, or half as much on a success. ",
+				"If a target is killed or knocked {@condition unconscious} by this damage, you may continue the wail and add their suffering to it, and creatures within 10 feet of the target must succeed on a Constitution saving throw or be {@condition frightened} of you for 1 minute, until they can no longer see or hear you, or until you stop wailing. While wailing, you cannot speak or cast spells that require verbal components."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 8th level or higher, you may target two additional creatures for each slot level above 7th."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Galanodel's Reap and Sow",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a seed encased in glass, and a small silver-encrusted bone, worth at least 25 gp",
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You tear the lifeforce and energy from your targets, and use it to rejuvenate others. Choose creatures or plants that you can see in a 15-foot sphere within range as your targets. Creatures must make a Constitution saving throw, taking {@damage 4d8} necrotic damage on a failure or half as much on a success. Plant creatures and magical plants make this saving throw at disadvantage, and nonmagical plants instantly wilt and die instead.",
+				"Choose up to 3 other creatures that you can see within range. You can restore a number of hit points to these targets up to the total amount of damage dealt with this spell, divided as you choose among them. If you only damaged nonmagical plants with this spell, the amount of hit points you restore is instead equal to your spellcasting modifier.",
+				"Instead of healing creatures, you may choose to rejuvenate and heal all nonmagical plants within 15 feet of you, even if they were wilted, burned or otherwise killed.",
+				"A target cannot be damaged or healed by this spell more than once every hour."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Galanodel's Sermon of Swords",
+			"source": "NewSpells",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "one slashing or piercing melee weapon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You begin speaking a prayer while brandishing the weapon used as a material component for this spell. For the duration, a 30-foot aura extends from you. ",
+				"Creatures of your choice within the aura who can hear you gain a +1 bonus to their armor class and have advantage on Dexterity saving throws against damaging spells and effects, with spectral blades parrying and blocking blows directed against them. They may also use their reaction at any point to make a melee attack against a creature within range. ",
+				"Additionally, when you cast this spell, and as an action on subsequent turns, you may raise your voice into a loud sermon praising your deity, calling on their combat prowess to aid you. Every creature of your choice within the aura must make a Dexterity saving throw, as copies of your weapon shining with divine energy appear and strike at them. A creature takes {@damage 7d6} slashing damage if it fails this saving throw, or half as much if it succeeds. You may not make use of this action if you cannot speak, such as when under the effect of a {@spell silence} spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Galanodel's Shadow Stride",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You and up to ten willing creatures you can see within range step into your own shadow, disappearing from the material plane and reaching into the Shadowfell. You transform into shadows and speed along surfaces, gaining walking and climbing speeds of 120 feet, as well as resistance to damage from nonmagical attacks. ",
+				"While in shadow form, a creature may only take the Dash, Dodge, Disengage or Hide actions, or use a bonus action to revert to its original form, ending the spell on itself.",
+				"The shadows are clearly visible and retain the shape they had before casting the spell, but are functionally {@condition invisible} in darkness, and have advantage on Dexterity (Stealth) checks while in dim light."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Glorious Charge",
+			"source": "NewSpells",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a melee weapon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You raise your weapon to the sky and inspire your allies to charge forward. Choose up to six willing creatures within range. For the duration, the chosen creatures can use a bonus action to move up to their walking speed towards a hostile creature they can see. If a creature affected by the spell deals damage to a target, the spell ends, and the target takes an extra {@damage 1d6} radiant or necrotic damage (your choice) if the damage was dealt by a melee attack. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature and the extra damage on attacks increases by {@damage 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Naraeth's Black Ice",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of water; and a drop of drow poison worth at least 1 gp, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"Drawing on some of the darker magic used by drow spellcasters, you wreathe yourself or a willing creature you can see in a veneer of transparent, magic-resistant black ice, which lasts for the duration.",
+				"While the ice lasts, the creature wreathed in it is resistant to cold damage. Additionally, whenever the creature is hit by a spell attack or affected by a spell, the energy of the spell or attack are twisted by the ice. Roll a {@dice d4} to determine how.",
+				{
+					"type": "entries",
+					"name": "1-Weaken",
+					"entries": [
+						"The ice darkens, slowing the progress of the attack or spell, and reducing the damage it would deal to the target by half, if applicable."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "2-Dissipate",
+					"entries": [
+						"The ice refracts the magical energy into the creature's surroundings, turning it into a harmless lavender glow, and the spell or attack has no effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "3-Absorb",
+					"entries": [
+						"The spell or attack's energy is reversed. If it would have damaged the target, it instead heals the target for the same amount, and vice-versa. If the spell heals or deals additional damage on subsequent turns, this effect applies on all such turns for the duration of the spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "4-Reflect",
+					"entries": [
+						"The ice briefly takes on a mirrored sheen, condensing the energy before redirecting it. The target suffers no effects. The spell or attack instead affects the caster as if they had cast it on themselves. If the spell or attack deals radiant damage, its damage to the caster is doubled."
+					]
+				},
+				"Spells and attacks that exclusively deal fire damage to the creature are unaffected by the ice. The ice also does not twist area effects, such as a {@spell fireball} spell.",
+				"Every time a spell or attack is twisted by the ice, the creature covered in the veneer must roll a {@dice d8}; on a 1, the ice shatters, and the spell ends on that creature. If a target is in sunlight when this spell affects them, the ice and the spell only last until the first time it twists a spell or attack."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level, you may target one additional creature. When you cast it using a slot of 5th level or higher, you may target up to 3 creatures."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Naraeth's Hoard Sense",
+			"source": "NewSpells",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "the scale of a creature of the dragon type, encrusted with gold worth at least 10 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You draw on the innate greed and magic of dragons to sense wealth around you. When you cast this spell, you determine the presence of valuables within 120 feet of you. These valuables may be currency, precious materials, or magical items, but you do not learn their type and worth, only their direction in relation to you.",
+				"If you cast this spell in an area many creatures frequent, such as a city, town square or temple, at the DM's discretion, you are overwhelmed by the massive number of small items of low value, and you instead learn no information from this spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 3rd level or higher, you learn the exact location of the valuables instead. When you cast it using a spell slot of 4th level or higher, you also learn their approximate value. When you cast it using a spell slot of 5th level or higher, you immediately learn what the valuables are and the materials they are made of."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Naraeth's Icicle Stream",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an ice cube"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You trace your hand in a circle, briefly opening a portal to an icy demiplane, releasing a flurry of razor-sharp icicles in a line 90 feet long and 5 feet wide from a point of your choosing within 60 feet of you. The first creature in the line starting from the portal's location must make a Dexterity saving throw, taking {@damage 6d8} piercing damage on a failure or half as much on a success. ",
+				"If the creature avoided any of the damage, whether by succeeding the saving throw or by virtue of damage resistance, immunity or some other feature, the next creature in the line must also make a Dexterity saving throw. This creature takes the remainder of the damage on a failure. If the second creature succeeds its saving throw, it takes no damage, and the icicles proceed to the next creature, until all their damage is dealt or there are no creatures left in the area."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Naraeth's Refracting Focus",
+			"source": "NewSpells",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a glass lens"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a lens infused with the pure magic of the Weave, through which to focus your spells. The lens is a clear sphere of ice with a 5-foot diameter, and is created in an unoccupied location that you can see within range, floating no more than 5 feet above a surface. The sphere lasts for the duration, and you may use a bonus action on subsequent turns to telepathically command it to fly up to 30 feet to a location of your choice. When the sphere stops moving, it must remain no more than 5 feet above a surface, or it falls.",
+				"The sphere has AC 15, and 100 hit points. It is immune to acid, cold, necrotic, poison, and psychic damage, and vulnerable to fire damage and bludgeoning damage from non-magical attacks. If it reaches 0 hit points, the sphere shatters and the spell ends. Finally, the sphere is transparent to magic, and spells can be cast through it at a target behind it, as long as it is positioned between the caster and its target.",
+				"While the sphere lasts, it amplifies spells and spell attacks cast through it. A spell or attack that includes a damage roll has its damage increased by one roll of its damage die. If the damage roll includes multiple dice, the caster chooses which one is added to the roll.",
+				"If a spell does not deal damage, it instead counts as one level higher than its original level. For example, a {@spell charm person} spell cast with a 3rd-level spell slot counts as 4th level instead. ",
+				"If a spell or attack cast through the sphere deals fire damage, it is not amplified, and targets the sphere instead of its original target.",
+				"This spell may fail as a result of a {@spell counterspell}, but a {@spell dispel magic} spell cast at the sphere does not end it, and is instead amplified and targets a creature, item or magical effect behind it. Additionally, an {@spell antimagic field} spell does not destroy the sphere or end the spell, but it prevents it from being telepathically commanded to move."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Naraeth's Rimewalk",
+			"source": "NewSpells",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pint of water"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You coalesce ice into skates on the feet of up to four willing creature that you can see within range. For the duration, the creatures can walk on water as if it were a solid surface, and skate on ice without suffering the effects of slippery or thin ice. Additionally, while skating on ice or water, the creatures' walking speeds increase by 10 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 3rd level or higher, you may target up to two additional creatures for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Naraeth's Shattering Frost",
+			"source": "NewSpells",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a reptilian scale, painted white or silver"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A swirling storm of frost pours forth from your open mouth, freezing solid the moisture in the air around it as it travels. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes {@damage 5d8} cold damage on a failed save, or half as much damage on a successful one. ",
+				"If a creature fails the save, it is {@condition restrained} by shards of ice spanning across its skin until the end of its next turn; otherwise, its movement speed is reduced by 10 ft. for the same duration.",
+				"A creature ignores these effects if it is immune to cold damage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Naraeth's Wall of Cold",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an ice cube"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You rip the Weave to open and hold a rift to the Para-Elemental Plane of Ice, which takes the form of a transparent wall within range and lasts for the duration. You can make a straight wall up to 60 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 5 feet thick. ",
+				"Creatures may attempt a DC 15 Wisdom (Perception) check to discern the warping space and freezing air emanating from it, but the wall is {@condition invisible} otherwise.",
+				"When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 4d8} cold damage, or half as much damage on a successful save. A creature takes the same damage when it enters or touches the wall for the first time on a turn or ends its turn there. ",
+				"The wall also extinguishes all nonmagical flames and all magical fire created by spells of 4th level or lower in its area and within 5 feet of it, and deals maximum damage to fire-based creatures of the elemental type. Heated or burning ammunition or attacks passing through it are also extinguished."
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Planar Chains",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you notice a creature within range teleport"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a length of chain of the material associated to the plane you are on, worth at least 25 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to tether a creature to the plane you are on. The creature takes {@damage 2d8} force damage, and must make a Charisma saving throw. On a failure, the creature is pulled back between folds of space by ethereal chains, and the teleportation fails. A creature who fails to teleport as a result of this spell cannot teleport or be teleported again until the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell with a spell slot of 4th level or higher, you can target two more creatures for each spell slot level above 3rd. The creatures must be attempting to teleport at the same time."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Precipice Gaze",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a recording of occult knowledge worth at least 100 gp, such as an archfiend's lore inscribed in a scroll or a tome, carved on dragon knucklebones, etc."
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You attempt to peer past the veil between the worlds to behold forbidden knowledge, or bestow this knowledge upon others. Choose a creature within range. You may then choose one of the following effects.",
+				{
+					"type": "entries",
+					"name": "Glean",
+					"entries": [
+						"The knowledge the creature seeks is delivered, but its alien origin causes a splitting headache. The creature takes {@damage 1d4} psychic damage, and can add the same amount or their proficiency bonus - whichever is higher - to one ability check they make within the next hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shake",
+					"entries": [
+						"The creature's mind is overwhelmed with odious and illogical truths. The creature takes {@damage 4d4} psychic damage and is {@condition stunned} until the end of their next turn."
+					]
+				},
+				"An unwilling creature may attempt a Wisdom saving throw. On a success, they are not {@condition stunned} by Shake, and the psychic damage they take from this spell is halved."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell with a spell slot of 4th level or higher, the damage and bonus to ability checks caused by Glean increases by {@damage 1d4}, and the damage caused by Shake increases by {@damage 2d4}, for every spell slot level above 3rd, up to a maximum of {@damage 3d4} (Glean) and {@damage 8d4} (Shake) with a spell slot of level 5th or higher."
+					]
+				}
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Prismatic Flames",
+			"source": "NewSpells",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a weapon of your choice worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You will flames of chaotic, rainbow-coloured energy into your hands. While the spell lasts, the flames enhance your attacks. Whenever you hit with a weapon attack or unarmed strike for the duration, roll a {@dice d8} to determine the colour and effects of the flames on impact, or, at your DM's discretion, choose one of the options:",
+				{
+					"type": "entries",
+					"name": "1-Red",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "2-Orange",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} acid damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "3-Yellow",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} lightning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "4-Green",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "5-Blue",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "6-Indigo",
+					"entries": [
+						"The target is {@condition restrained}. It then makes a Constitution saving throw at the end of each of its turns, ending the restraint on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "7-Violet",
+					"entries": [
+						"The target is {@condition blinded}. It then makes a Wisdom saving throw at the end of each of its turns, ending the blindness on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "8-Special",
+					"entries": [
+						"Two colours meld into the flames at once, and the target suffers two different effects. Roll twice more, rerolling any 8. You may not choose this option, and may only receive it as a result of rolling."
+					]
+				},
+				"Instead of using the flames to enhance an attack, you may launch a stream of fire from them. As part of an attack action, make a ranged spell attack against a target you can see within 60 feet. On a hit, the target suffers the effects of the flames, as with the options above.",
+				"Whenever a target is affected by the flames, they dim, and cannot be used again until the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level, the duration becomes 8 hours. When you cast it using a spell slot of 8th level or higher, the duration remains 8 hours, but the damage of the flames' damaging options increases by {@dice 1d6}, or {@dice 2d6} if cast using a 9th level slot."
+					]
+				}
+			],
+			"conditionInflict": [
+				"blinded",
+				"restrained"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Prismatic Flames",
+			"source": "NewSpells",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You will flames of chaotic, rainbow-coloured energy into your hands or those of a willing creature you can see. While the spell lasts, the flames enhance the creature's attacks. Whenever the creature hit with a weapon attack or unarmed strike for the duration, roll a {@dice d8} to determine the colour and effects of the flames on impact, or, at your DM's discretion, choose one of the options:",
+				{
+					"type": "entries",
+					"name": "1-Red",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "2-Orange",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} acid damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "3-Yellow",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} lightning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "4-Green",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "5-Blue",
+					"entries": [
+						"The target of the attack takes {@damage 5d6} cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "6-Indigo",
+					"entries": [
+						"The target is {@condition restrained}. It then makes a Constitution saving throw at the end of each of its turns, ending the restraint on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "7-Violet",
+					"entries": [
+						"The target is {@condition blinded}. It then makes a Wisdom saving throw at the end of each of its turns, ending the blindness on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "8-Special",
+					"entries": [
+						"Two colours meld into the flames at once, and the target suffers two different effects. Roll twice more, rerolling any 8. A creature may not choose this option, and may only receive it as a result of rolling."
+					]
+				},
+				"Instead of using the flames to enhance an attack, a creature may launch a stream of fire from them. As part of an attack action, the creature may make a ranged spell attack against a target it can see within 60 feet. On a hit, the target suffers the effects of the flames, as with the options above.",
+				"Whenever a target is affected by the flames, they dim, and cannot be used again until the start of the creature's next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level, the duration becomes 8 hours. When you cast it using a spell slot of 8th level or higher, the duration remains 8 hours, but the damage of the flames' damaging options increases by {@dice 1d6}, or {@dice 2d6} if cast using a 9th level slot."
+					]
+				}
+			],
+			"conditionInflict": [
+				"blinded",
+				"restrained"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Prismatic Imbuement",
+			"source": "NewSpells",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a weapon of your choice worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"entries": [
+				"You push a breath of chaotic Weave energy into a weapon, imbuing it with elemental potency. Pick a damage type between acid, cold, fire, lightning and poison. The weapon develops a visual or auditory sign of this damage type, such as bubbling for poison, hissing for acid, or crackling for lightning.",
+				"Whenever this weapon deals damage as part of an attack, its target takes an additional {@damage 1d4} damage of the type you chose.",
+				"The imbuement lasts for a number of rounds equal to your proficiency bonus. However, it ends early, or fails to apply, if the weapon is affected by a spell such as {@spell elemental weapon} or a smite spell; though features such as Divine Smite and Eldritch Smite do not interfere with it."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd or 4th level, the extra damage increases to {@dice 2d4}. When you use a spell slot of 5th level or higher, the extra damage increases to {@dice 3d4}."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Read Weakness",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You rapidly and haphazardly sift through the past of a creature or object within range, looking exclusively for intense pain and damage, and that which caused it. A creature must make a Constitution saving throw, being affected by the spell on a failure, or taking {@damage 1d6} psychic damage and suffering no further effects on a success. Against an object, make an ability check using your spellcasting ability, against the object's AC. On a success, the object is affected by the spell.",
+				"You immediately learn the vulnerabilities of an affected target, if any, and may use your reaction to telepathically share this information with willing creatures of your choice within range.",
+				"Once you have cast this spell on a target, you may not use it again on the same target, regardless of success or failure."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Redirect Entropy",
+			"source": "NewSpells",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are targeted by a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You tear away some of the energy of an incoming spell, and use it to flood a foe's mind. If the spell is of 1st level or lower, it is redirected. Otherwise, make an ability check using your spellcasting ability modifier, against a DC equal to 10 + the spell's level. On a success, the spell is redirected.",
+				"When you redirect a spell, you automatically succeed on any saving throw imposed by the spell, and any attack roll the spell made against you automatically fails. You suffer any other effects of the spell as normal.",
+				"Immediately after redirecting a spell, choose a creature within range. The target must make an Intelligence saving throw. On a failure, they take psychic damage equal to {@damage 1d8} + {@damage 1d8} per spell slot level of the spell you redirected."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you automatically redirect a spell if its level is less than that of the spell slot you used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Revise Memory",
+			"source": "NewSpells",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pinch of powdered crystal or clear gemstone worth at least 1 gp, which is consumed by the spell",
+					"consume": true,
+					"cost": 100
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You turn back the perception of time and erase unsavory memories from the mind of a creature you can see within range. The target must make a Wisdom saving throw, which it makes with advantage if you are fighting it. On a failure, the target is affected by the spell, and you may rewind its memory to a point in time within the last 10 minutes. The target is not aware of the change, and continues its routines or conversations as they were at the moment you chose."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you may target two additional creatures for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Scry Fates",
+			"source": "NewSpells",
+			"level": 5,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "any hallucinogenic or narcotic substance, worth at least 10 gp, which the spell consumes",
+					"consume": true,
+					"cost": 1000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You go on a journey into a willing creature's fickle fates, with whom you must maintain contact for the duration of the spell. While you are concentrating, every minute, the target creature must make a Wisdom check, adding your spellcasting modifier, with a DC of 12. ",
+				"On a success, you and the target both see a vision of the target's potential future. This vision may show an important, unavoidable event in the target's future, a decision that would determine the rest of their life, a possible result of their most recent actions, or even a likely way in which they will die, at the DM's discretion. For each success, the DC of the checks increases by 3.",
+				"On a failure, the spell ends, and the target is immune to it for 10 days. "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sense Natures",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You release a silent burst of psychic energy, discerning the true natures of a creature of your choice that you can see within range. The creature must make a Constitution saving throw. On a failure, you learn the creature's type and subtype, if any. On a success, the creature is unaffected.",
+				"This spell correctly shows the true nature of shapechangers and other creatures that have magically transformed, such as a dragon in humanoid form. However, it does not show the original form of a creature that is polymorphed by means of a spell or the Wild Shape feature.",
+				"Once you have cast this spell on a creature, that creature is immune to the spell for the next 24 hours, regardless of success or failure."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Soul Transfer",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of your blood, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You take advantage of the distractions or worries of a beast or humanoid within range that you can see, and forcefully push your soul into their body. The creature must succeed on a Charisma saving throw or be affected by the spell. ",
+				"When you successfully affect a creature with this spell, you enter a trance as your spirit passes into your target. You fall {@condition unconscious}, but you maintain concentration on this spell despite being {@condition incapacitated}. The target is {@condition incapacitated}, and you take control of its body. You do not gain access to the target's knowledge, class features or proficiencies, but you may cause it to move or take whatever actions it can, using initiative as usual. ",
+				"While the spell lasts, you take any damage the target takes, and vice-versa, making Constitution saving throws to maintain concentration as usual. ",
+				"Unless the creature was {@condition unconscious} when you cast this spell on it, it may repeat the Charisma saving throw at the end of each of its turns, ending the effect on itself on a success. The spell can also be ended by a banishment, plane shift or dispel good and evil spell or a similar effect, all of which target you rather than the creature affected by this spell, and end this spell if they affect you instead of having their regular effect.",
+				"If the spell ends in this way, or as a result of broken concentration, you remain {@condition unconscious} until the start of your next turn. Otherwise, the spell ends early and you immediately regain consciousness if the creature is reduced to 0 hit points. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can also target creatures of the dragon, giant, monstrosity or plant types. When you cast this spell using a spell slot of 5th level or higher, you can also target creatures of the celestial, fey and fiend types."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Spiritist",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Thermal Lance",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 500
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a small piece of raw silver, gold or platinum worth at least 5 gp, which the spell consumes",
+					"consume": true,
+					"cost": 500
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You charge a piece of metal with magical energy, causing it to heat up and liquify, before launching it at a distant enemy. Make a ranged spell attack against a creature or object within range. ",
+				"On a hit, the target takes {@damage 2d12} piercing damage and {@damage 2d12} fire damage as the thin line of molten metal burns through it. On a miss, the target only takes {@damage 1d12} fire damage. Flammable objects take maximum fire damage from this spell, and cannot provide cover for creatures behind them. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the piercing damage or the fire damage (your choice) that you deal on a hit increases by {@damage 1d12} for each spell slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Turn Skies",
+			"source": "NewSpells",
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 500
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a precious metal pendant in the shape of a sun and a moon, worth at least 150 gp",
+					"cost": 15000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You will daylight to dim, or stars to shine bright as the sun in an area you can see within range. The area may be a cube, sphere or cylinder, and it may not be smaller than a 15-foot sphere or larger than a 100-foot cube. ",
+				"Within this area, day turns to night or vice versa, and the light level becomes either dim or bright light. Light is still blocked by opaque objects as normal, and does not flow around corners. This change lasts for the duration, or until you end the spell as a bonus action.",
+				"If you turn day to night, the light counts as moonlight, and shapechangers in the light may be damaged and revealed as if by a {@spell moonbeam} spell. If you turn night to day, the light counts as sunlight, and undead creatures must make a Constitution saving throw when they first enter the light. On a failure, they take {@damage 2d10} radiant damage and gain a dark aura that marks them as undead for the next hour. On a success, they take half as much damage and suffer no other effects.",
+				"When the spell ends, the light changes to reflect the current time of day and weather conditions."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using an 8th-level spell slot, the duration is up to 24 hours. If you cast it using a 9th-level slot, it lasts until dispelled."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Twist Words",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you hear a creature within 60 feet of you casting a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You instinctively see into the immediate future, and speak distracting words and incantations to twist a spell before it leaves its caster's mouth. ",
+				"If the spell you are twisting is 3rd level or lower, you automatically succeed. If is 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, you twist the spell.",
+				"When you twist a spell, you may cause the spell to target a different creature, object or area than the caster originally targeted. The new target must be within the spell's range, as it is still being released by the caster, and you must be able to see the new target. ",
+				"You may not twist spells that have a range of self. Additionally, as you must hear a spell being cast to twist it, the spell must be cast using verbal components. If you have a feature or effect that allows you to read lips, you may use this spell even when you can only see, but not hear, a spell. In that case, this spell instead has a range of Sight."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you automatically redirect a spell if its level is less than that of the spell slot you used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Volcanic Ring",
+			"source": "NewSpells",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of volcanic rock or obsidian"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You cause stone to bubble and boil, rising to the surface around you as a ring of molten lava. You may create a ring with a radius between 5 and 30 feet, a width of lava between 1 foot and 15 feet, and a height of up to 5 feet. The lava cannot rise further than 60 feet above earth or rock and must come to rest on a stable surface, so this spell is ineffective in flight, while above deep water, or on icebergs and similar forms of relief. ",
+				"If the ring cuts through or into a creature's space when it appears, the creature must make a Dexterity saving throw, taking {@damage 6d6} fire damage on a failure or half as much on a success. Creatures currently in flight when this takes place have advantage on this saving throw.",
+				"While the ring lasts, any creature that walks or climbs into the area of the lava for the first time on a turn or ends its turn there takes {@damage 6d6} fire damage.",
+				"Additionally, while within the ring, you and creatures of your choice deal an additional {@damage 1d8} fire damage on a successful hit with a weapon attack or unarmed strike.",
+				"You may only cast this spell while standing or climbing on a solid surface."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wall of Splintered Dimensions",
+			"source": "NewSpells",
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "any object from another plane worth at least 5 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You rip the Weave apart, creating an unstable tear between planes to block off your opponents. The tear takes the form of an opaque wall within range, and lasts for the duration. ",
+				"You can form it into a hemispherical dome or a sphere with a radius of up to 20 feet, or you can shape a flat surface from up to twenty 10-foot-by-10-foot panels. The wall appears as warped ethereal matter, shattered mirrors, storms of multicolored energy, or any other opaque, chaotic form of your choice. Each panel must be contiguous with another panel. ",
+				"In any form, the wall is thinner than a hair, as it has no real, material weight, and it lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). Additionally, when creating the wall, you may choose one side; that side is transparent and can be seen through, while the other side remains opaque.",
+				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by {@spell dispel magic}. A {@spell passwall} spell cast at 7th level or higher creates a traversable hole in it, while a {@spell demiplane} spell destroys the wall entirely.",
+				"The wall blocks teleportation and movement from one side to the other, except by means of spells or effects that allow interplanar travel or movement, such as {@spell plane shift} or {@spell blink}. "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Weave Permeation",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You forcefully drive pure magical energy from the Weave through a creature or object that you can see within range, attempting to shatter its resilience. If the target has magic resistance or a similar trait, it must make a Constitution saving throw. On a failure, it loses this trait temporarily.",
+				"At the end of each of its subsequent turns, the creature can attempt the saving throw again, ending the effect on a success.",
+				"If a creature has limited spell immunity, it is unaffected by this spell unless it is cast at the highest level ignored by the immunity. In the case of full spell immunity, the creature is unaffected unless the spell is cast using a spell slot of 8th level or higher."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 8th level or higher, you may target a zone of antimagic, such as that created by the {@spell antimagic field} spell. If you do so, the zone is temporarily suppressed if it is no larger than a 30-foot cube. If it is larger, you instead suppress a 30-foot-cube portion of it.",
+						"If you concentrate on the spell for its full duration, the zone or portion you suppressed is permanently dispelled."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Weave Spark",
+			"source": "NewSpells",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You draw a brief spark of unstable magic from the Weave and launch it at a target before it dissipates. Make a ranged attack roll against a creature within range. On a hit, the target takes {@damage 1d4} damage.",
+				"You choose the damage type of this spell whenever you gain a level in a class. The damage type may be acid, cold, fire, lightning or poison.",
+				"If you use a Metamagic option on this spell, doing so does not cost you any sorcery points, though any other restrictions apply. If a Metamagic option or any other effect allows you to ignore verbal and somatic components when casting this spell, the spark is {@condition invisible} to everyone but you.",
+				"The spell's damage increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}) and 17th level ({@damage 4d4})."
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Witness Patterns",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You look into the memories of a location, receiving visions of the patterns it observed. You see ghostly images of recurring events that took place within 60 feet of you over a period of time of your choice, but no less than 10 days and no more than 100 years. The DM decides which visions you receive, but they should be those of the most relevant, impactful or frequent routines during that time period.",
+				"For example, in a city, for a 10-day period, you may see guard patrol patterns or delivery schedules. For a 100-year period, you may catch glimpses of wedding or coronation ceremonies, or religious or arcane rituals."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Spiritist",
+						"source": "NewSpells"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wiz's Glacial Smite",
+			"source": "NewSpells",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a weapon attack before the spell ends, your weapon releases a blast of air from Cania, the Eighth Hell of Baator. ",
+				"The supernatural cold flash-freezes your target, which takes {@damage 4d8} cold damage and must succeed on a Constitution saving throw or be {@condition restrained} for the duration. ",
+				"If the creature has a flying speed and is currently in flight, it suffers most effects of the {@condition restrained} condition, but its speed is reduced to 1 foot instead of 0, unless the spell was triggered with a melee weapon attack."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the cold damage increases by {@damage 1d8} for each spell slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wiz's Shadow Crevices",
+			"source": "NewSpells",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a cutting tool with a silver blade worth at least 100 gp; or a magic bladed weapon",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You slice through the fabric of existence to open small, unstable portals into the Shadowfell. When you cast this spell, and at the beginning of each of your turns for the spell's duration, you may create an entry portal in your space, and an exit portal in any unoccupied location you can see within range. Though you require line of sight to this location, it may be behind full cover, such as behind a closed glass window.",
+				"The portals appear as 1-foot, vaguely circular, dark, two-dimensional wounds, and last until the end of your turns, and are too volatile to be dispelled by a {@spell dispel magic} spell or any such effect weaker than a zone of antimagic. The spell, however, may be dispelled as normal at any point.",
+				"While the portals last, creatures can see through the entry portal as if they were in the space occupied by the exit portal, and vice versa. You may interact with items, cast spells and make attacks through the portals, as if you were standing in the location of the exit portal. Other creatures may do the same, and a foe may attack you through the exit portal if it can act before the end of your turn.",
+				"Whenever you hit with an attack or deal damage with a spell through the portals, the target or targets affected take an additional {@damage 1d4} necrotic damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 4th-level spell slot, you can maintain concentration on it for 1 hour. When you cast it using a 5th-level slot or higher, you can maintain your concentration on it for up to 8 hours, and the additional necrotic damage increases by {@damage 1d4}."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
